@@ -1,0 +1,62 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1489914099268-1dad649f76bf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+    
+    }
+.postcard{
+    padding: 1rem;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10rem 0;
+    font-family: 'Handlee', cursive;
+}
+.postcard-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.postcard-header h1{
+    font-size: 5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.img-container img{
+    height: 8rem;
+    width: auto;
+    margin-right: 3rem;
+}
+.postcard-msg-content{
+    display: flex;   
+}
+.postcard-msg-content .text-content{
+    text-align: justify;
+    padding: 3rem;
+    justify-content: start;
+}
+.postcard-msg-content p{
+    font-size: 2rem;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.postcard-msg-content input{
+    border: none;
+    border-bottom: 2px solid red;
+    font-size: 2rem;
+    text-align: start;
+    margin-right: 1rem;
+}
+.btn-container, .btn-container button{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+
